@@ -7,13 +7,13 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Person {
-    private String firstName;
-    private String lastName;
+    String firstName;
+    String lastName;
     private String streetAddress;
     private String city;
     private String province;
     private String postalCode;
-    private LocalDate birthDate;
+    LocalDate birthDate;
 
 
     public Person(String FN, String LN, String SA, String C, String P, String PC, LocalDate BD){
